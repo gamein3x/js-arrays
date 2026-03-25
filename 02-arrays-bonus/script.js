@@ -12,6 +12,25 @@ const teachers = [
 // e salva il risultato nella variabile reversedTeachers
 const reversedTeachers = teachers.toReversed();
 console.log(reversedTeachers);
+
+const reversedTeachersNew = [];
+
+for (let i = teachers.length - 1; i >= 0; i--) {
+  reversedTeachersNew.push(teachers[i]);
+}
+
+console.log(reversedTeachersNew);
+
+const reversedTeachersWhile = [];
+
+let i = teachers.length - 1;
+while (i >= 0) {
+  reversedTeachersWhile.push(teachers[i]);
+  i--;
+}
+
+console.log(reversedTeachersWhile);
+
 // Non uso .reverse() perchè cambia anche l'ordine dell'originale.
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
