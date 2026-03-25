@@ -1,0 +1,1 @@
+# Esercizio del Mercoledì 25/03/26: Javascript Arrays
